@@ -722,7 +722,7 @@ footer {
   background: url('../../assets/img/bg/background_eat-together.jpg')no-repeat center;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 800px;
   color: #fff;
 }
 
@@ -791,6 +791,12 @@ footer {
 
 .reservations > .flex-center > .container, .reservations > .row > .col-md-12, .reservations > .row > .col-md-6 {
   margin-bottom: 5%;
+}
+/* ==========================================================================
+   Locations
+   ========================================================================== */ 
+.news{
+  padding: 8% 15%;
 }
 /* ==========================================================================
    Locations

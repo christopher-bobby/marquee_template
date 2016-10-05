@@ -36,7 +36,7 @@
     </div>
 
     <section class="locations">
-      <div class="row">
+      <div class="row m-b-3">
         <div class="col-md-4">
           <h2><strong>BROOKLYN</strong></h2>
 
@@ -59,7 +59,8 @@
           212 326-8734
         </div>
       </div>
-      <div class="row">
+      
+      <div class="row m-t-3">
         <div class="col-md-4">
           <h2><strong>MEDIA INQUIRIES</strong></h2>
 
