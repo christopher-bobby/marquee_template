@@ -1,0 +1,832 @@
+  /* ========================================================================================================================================
+   Bootstrap Overriders (Author's Version of Normalization)
+   ========================================================================================================================================= */
+
+/* Default Row
+-------------------------------------------------- */
+.row {
+  margin-right: -10px; /* Originally 15 */
+  margin-left: -10px; /* Originally 15 */
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px; /* Originally 15 */
+  padding-left: 10px; /* Originally 15 */
+}
+
+/* Row / Col Variations
+-------------------------------------------------- */
+.row-n {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.row-n > .col-xs-1,.row-n > .col-xs-2,.row-n > .col-xs-3,.row-n > .col-xs-4,.row-n > .col-xs-5,.row-n > .col-xs-6,.row-n > .col-xs-7,.row-n > .col-xs-8,.row-n > .col-xs-9,.row-n > .col-xs-10,.row-n > .col-xs-11,.row-n > .col-xs-12,.row-n > .col-sm-1,.row-n > .col-sm-2,.row-n > .col-sm-3,.row-n > .col-sm-4,.row-n > .col-sm-5,.row-n > .col-sm-6,.row-n > .col-sm-7,.row-n > .col-sm-8,.row-n > .col-sm-9,.row-n > .col-sm-10,.row-n > .col-sm-11,.row-n > .col-sm-12,.row-n > .col-md-1,.row-n > .col-md-2,.row-n > .col-md-3,.row-n > .col-md-4,.row-n > .col-md-5,.row-n > .col-md-6,.row-n > .col-md-7,.row-n > .col-md-8,.row-n > .col-md-9,.row-n > .col-md-10,.row-n > .col-md-11,.row-n > .col-md-12,.row-n > .col-lg-1,.row-n > .col-lg-2,.row-n > .col-lg-3,.row-n > .col-lg-4,.row-n > .col-lg-5,.row-n > .col-lg-6,.row-n > .col-lg-7,.row-n > .col-lg-8,.row-n > .col-lg-9,.row-n > .col-lg-10,.row-n > .col-lg-11,.row-n > .col-lg-12,.row-n > .col-xl-1,.row-n > .col-xl-2,.row-n > .col-xl-3,.row-n > .col-xl-4,.row-n > .col-xl-5,.row-n > .col-xl-6,.row-n > .col-xl-7,.row-n > .col-xl-8,.row-n > .col-xl-9,.row-n > .col-xl-10,.row-n > .col-xl-11,.row-n > .col-xl-12 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row-5 {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.row-5 > .col-xs-1,.row-5 > .col-xs-2,.row-5 > .col-xs-3,.row-5 > .col-xs-4,.row-5 > .col-xs-5,.row-5 > .col-xs-6,.row-5 > .col-xs-7,.row-5 > .col-xs-8,.row-5 > .col-xs-9,.row-5 > .col-xs-10,.row-5 > .col-xs-11,.row-5 > .col-xs-12,.row-5 > .col-sm-1,.row-5 > .col-sm-2,.row-5 > .col-sm-3,.row-5 > .col-sm-4,.row-5 > .col-sm-5,.row-5 > .col-sm-6,.row-5 > .col-sm-7,.row-5 > .col-sm-8,.row-5 > .col-sm-9,.row-5 > .col-sm-10,.row-5 > .col-sm-11,.row-5 > .col-sm-12,.row-5 > .col-md-1,.row-5 > .col-md-2,.row-5 > .col-md-3,.row-5 > .col-md-4,.row-5 > .col-md-5,.row-5 > .col-md-6,.row-5 > .col-md-7,.row-5 > .col-md-8,.row-5 > .col-md-9,.row-5 > .col-md-10,.row-5 > .col-md-11,.row-5 > .col-md-12,.row-5 > .col-lg-1,.row-5 > .col-lg-2,.row-5 > .col-lg-3,.row-5 > .col-lg-4,.row-5 > .col-lg-5,.row-5 > .col-lg-6,.row-5 > .col-lg-7,.row-5 > .col-lg-8,.row-5 > .col-lg-9,.row-5 > .col-lg-10,.row-5 > .col-lg-11,.row-5 > .col-lg-12,.row-5 > .col-xl-1,.row-5 > .col-xl-2,.row-5 > .col-xl-3,.row-5 > .col-xl-4,.row-5 > .col-xl-5,.row-5 > .col-xl-6,.row-5 > .col-xl-7,.row-5 > .col-xl-8,.row-5 > .col-xl-9,.row-5 > .col-xl-10,.row-5 > .col-xl-11,.row-5 > .col-xl-12 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.row-10 {
+  margin-right: -10px;
+  margin-left: -10px;
+}
+.row-10 > .col-xs-1,.row-10 > .col-xs-2,.row-10 > .col-xs-3,.row-10 > .col-xs-4,.row-10 > .col-xs-5,.row-10 > .col-xs-6,.row-10 > .col-xs-7,.row-10 > .col-xs-8,.row-10 > .col-xs-9,.row-10 > .col-xs-10,.row-10 > .col-xs-11,.row-10 > .col-xs-12,.row-10 > .col-sm-1,.row-10 > .col-sm-2,.row-10 > .col-sm-3,.row-10 > .col-sm-4,.row-10 > .col-sm-5,.row-10 > .col-sm-6,.row-10 > .col-sm-7,.row-10 > .col-sm-8,.row-10 > .col-sm-9,.row-10 > .col-sm-10,.row-10 > .col-sm-11,.row-10 > .col-sm-12,.row-10 > .col-md-1,.row-10 > .col-md-2,.row-10 > .col-md-3,.row-10 > .col-md-4,.row-10 > .col-md-5,.row-10 > .col-md-6,.row-10 > .col-md-7,.row-10 > .col-md-8,.row-10 > .col-md-9,.row-10 > .col-md-10,.row-10 > .col-md-11,.row-10 > .col-md-12,.row-10 > .col-lg-1,.row-10 > .col-lg-2,.row-10 > .col-lg-3,.row-10 > .col-lg-4,.row-10 > .col-lg-5,.row-10 > .col-lg-6,.row-10 > .col-lg-7,.row-10 > .col-lg-8,.row-10 > .col-lg-9,.row-10 > .col-lg-10,.row-10 > .col-lg-11,.row-10 > .col-lg-12,.row-10 > .col-xl-1,.row-10 > .col-xl-2,.row-10 > .col-xl-3,.row-10 > .col-xl-4,.row-10 > .col-xl-5,.row-10 > .col-xl-6,.row-10 > .col-xl-7,.row-10 > .col-xl-8,.row-10 > .col-xl-9,.row-10 > .col-xl-10,.row-10 > .col-xl-11,.row-10 > .col-xl-12 {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.row-15 {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row-15 > .col-xs-1,.row-15 > .col-xs-2,.row-15 > .col-xs-3,.row-15 > .col-xs-4,.row-15 > .col-xs-5,.row-15 > .col-xs-6,.row-15 > .col-xs-7,.row-15 > .col-xs-8,.row-15 > .col-xs-9,.row-15 > .col-xs-10,.row-15 > .col-xs-11,.row-15 > .col-xs-12,.row-15 > .col-sm-1,.row-15 > .col-sm-2,.row-15 > .col-sm-3,.row-15 > .col-sm-4,.row-15 > .col-sm-5,.row-15 > .col-sm-6,.row-15 > .col-sm-7,.row-15 > .col-sm-8,.row-15 > .col-sm-9,.row-15 > .col-sm-10,.row-15 > .col-sm-11,.row-15 > .col-sm-12,.row-15 > .col-md-1,.row-15 > .col-md-2,.row-15 > .col-md-3,.row-15 > .col-md-4,.row-15 > .col-md-5,.row-15 > .col-md-6,.row-15 > .col-md-7,.row-15 > .col-md-8,.row-15 > .col-md-9,.row-15 > .col-md-10,.row-15 > .col-md-11,.row-15 > .col-md-12,.row-15 > .col-lg-1,.row-15 > .col-lg-2,.row-15 > .col-lg-3,.row-15 > .col-lg-4,.row-15 > .col-lg-5,.row-15 > .col-lg-6,.row-15 > .col-lg-7,.row-15 > .col-lg-8,.row-15 > .col-lg-9,.row-15 > .col-lg-10,.row-15 > .col-lg-11,.row-15 > .col-lg-12,.row-15 > .col-xl-1,.row-15 > .col-xl-2,.row-15 > .col-xl-3,.row-15 > .col-xl-4,.row-15 > .col-xl-5,.row-15 > .col-xl-6,.row-15 > .col-xl-7,.row-15 > .col-xl-8,.row-15 > .col-xl-9,.row-15 > .col-xl-10,.row-15 > .col-xl-11,.row-15 > .col-xl-12 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row-20 {
+  margin-right: -20px;
+  margin-left: -20px;
+}
+.row-20 > .col-xs-1,.row-20 > .col-xs-2,.row-20 > .col-xs-3,.row-20 > .col-xs-4,.row-20 > .col-xs-5,.row-20 > .col-xs-6,.row-20 > .col-xs-7,.row-20 > .col-xs-8,.row-20 > .col-xs-9,.row-20 > .col-xs-10,.row-20 > .col-xs-11,.row-20 > .col-xs-12,.row-20 > .col-sm-1,.row-20 > .col-sm-2,.row-20 > .col-sm-3,.row-20 > .col-sm-4,.row-20 > .col-sm-5,.row-20 > .col-sm-6,.row-20 > .col-sm-7,.row-20 > .col-sm-8,.row-20 > .col-sm-9,.row-20 > .col-sm-10,.row-20 > .col-sm-11,.row-20 > .col-sm-12,.row-20 > .col-md-1,.row-20 > .col-md-2,.row-20 > .col-md-3,.row-20 > .col-md-4,.row-20 > .col-md-5,.row-20 > .col-md-6,.row-20 > .col-md-7,.row-20 > .col-md-8,.row-20 > .col-md-9,.row-20 > .col-md-10,.row-20 > .col-md-11,.row-20 > .col-md-12,.row-20 > .col-lg-1,.row-20 > .col-lg-2,.row-20 > .col-lg-3,.row-20 > .col-lg-4,.row-20 > .col-lg-5,.row-20 > .col-lg-6,.row-20 > .col-lg-7,.row-20 > .col-lg-8,.row-20 > .col-lg-9,.row-20 > .col-lg-10,.row-20 > .col-lg-11,.row-20 > .col-lg-12,.row-20 > .col-xl-1,.row-20 > .col-xl-2,.row-20 > .col-xl-3,.row-20 > .col-xl-4,.row-20 > .col-xl-5,.row-20 > .col-xl-6,.row-20 > .col-xl-7,.row-20 > .col-xl-8,.row-20 > .col-xl-9,.row-20 > .col-xl-10,.row-20 > .col-xl-11,.row-20 > .col-xl-12 {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.row-25 {
+  margin-right: -25px;
+  margin-left: -25px;
+}
+.row-25 > .col-xs-1,.row-25 > .col-xs-2,.row-25 > .col-xs-3,.row-25 > .col-xs-4,.row-25 > .col-xs-5,.row-25 > .col-xs-6,.row-25 > .col-xs-7,.row-25 > .col-xs-8,.row-25 > .col-xs-9,.row-25 > .col-xs-10,.row-25 > .col-xs-11,.row-25 > .col-xs-12,.row-25 > .col-sm-1,.row-25 > .col-sm-2,.row-25 > .col-sm-3,.row-25 > .col-sm-4,.row-25 > .col-sm-5,.row-25 > .col-sm-6,.row-25 > .col-sm-7,.row-25 > .col-sm-8,.row-25 > .col-sm-9,.row-25 > .col-sm-10,.row-25 > .col-sm-11,.row-25 > .col-sm-12,.row-25 > .col-md-1,.row-25 > .col-md-2,.row-25 > .col-md-3,.row-25 > .col-md-4,.row-25 > .col-md-5,.row-25 > .col-md-6,.row-25 > .col-md-7,.row-25 > .col-md-8,.row-25 > .col-md-9,.row-25 > .col-md-10,.row-25 > .col-md-11,.row-25 > .col-md-12,.row-25 > .col-lg-1,.row-25 > .col-lg-2,.row-25 > .col-lg-3,.row-25 > .col-lg-4,.row-25 > .col-lg-5,.row-25 > .col-lg-6,.row-25 > .col-lg-7,.row-25 > .col-lg-8,.row-25 > .col-lg-9,.row-25 > .col-lg-10,.row-25 > .col-lg-11,.row-25 > .col-lg-12,.row-25 > .col-xl-1,.row-25 > .col-xl-2,.row-25 > .col-xl-3,.row-25 > .col-xl-4,.row-25 > .col-xl-5,.row-25 > .col-xl-6,.row-25 > .col-xl-7,.row-25 > .col-xl-8,.row-25 > .col-xl-9,.row-25 > .col-xl-10,.row-25 > .col-xl-11,.row-25 > .col-xl-12 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.row-30 {
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.row-30 > .col-xs-1,.row-30 > .col-xs-2,.row-30 > .col-xs-3,.row-30 > .col-xs-4,.row-30 > .col-xs-5,.row-30 > .col-xs-6,.row-30 > .col-xs-7,.row-30 > .col-xs-8,.row-30 > .col-xs-9,.row-30 > .col-xs-10,.row-30 > .col-xs-11,.row-30 > .col-xs-12,.row-30 > .col-sm-1,.row-30 > .col-sm-2,.row-30 > .col-sm-3,.row-30 > .col-sm-4,.row-30 > .col-sm-5,.row-30 > .col-sm-6,.row-30 > .col-sm-7,.row-30 > .col-sm-8,.row-30 > .col-sm-9,.row-30 > .col-sm-10,.row-30 > .col-sm-11,.row-30 > .col-sm-12,.row-30 > .col-md-1,.row-30 > .col-md-2,.row-30 > .col-md-3,.row-30 > .col-md-4,.row-30 > .col-md-5,.row-30 > .col-md-6,.row-30 > .col-md-7,.row-30 > .col-md-8,.row-30 > .col-md-9,.row-30 > .col-md-10,.row-30 > .col-md-11,.row-30 > .col-md-12,.row-30 > .col-lg-1,.row-30 > .col-lg-2,.row-30 > .col-lg-3,.row-30 > .col-lg-4,.row-30 > .col-lg-5,.row-30 > .col-lg-6,.row-30 > .col-lg-7,.row-30 > .col-lg-8,.row-30 > .col-lg-9,.row-30 > .col-lg-10,.row-30 > .col-lg-11,.row-30 > .col-lg-12,.row-30 > .col-xl-1,.row-30 > .col-xl-2,.row-30 > .col-xl-3,.row-30 > .col-xl-4,.row-30 > .col-xl-5,.row-30 > .col-xl-6,.row-30 > .col-xl-7,.row-30 > .col-xl-8,.row-30 > .col-xl-9,.row-30 > .col-xl-10,.row-30 > .col-xl-11,.row-30 > .col-xl-12 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Global Overriders
+-------------------------------------------------- */
+a {
+  transition: color .25s ease-in-out;
+  -moz-transition: color .25s ease-in-out;
+  -webkit-transition: color .25s ease-in-out;
+  -o-transition: color .25s ease-in-out;
+  cursor: pointer;
+}
+a:focus, a:hover {
+  text-decoration: underline;
+}
+a:focus {
+  outline-offset: -2px;
+}
+textarea {
+  resize: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+img {
+  width: 100%;
+}
+tbody tr td.no-record {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #999;
+  font-style: italic;
+}
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.loading {
+  background: #fff url(../../assets/img/loading.gif) center no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 100000;
+  position: absolute;
+}
+.img {
+  background: #f0f0f0 url(../../assets/img/loading.gif) center no-repeat;
+}
+
+/* Color
+-------------------------------------------------- */
+.cl-white {color: #fff;}
+
+
+/* Media Query Killer (Make sure setting max-width in Bootstrap.css as none !important)
+---------------------------------------------------------------------------------------- */
+
+/*.container {
+  width: 970px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}*/
+
+/* ========================================================================================================================================
+   Chrome Frame Support
+   ========================================================================================================================================= */
+
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+ /* ========================================================================================================================================
+   Helper Class
+   ========================================================================================================================================= */
+/*all centered using flexbox */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Font Sizes
+-------------------------------------------------- */
+.font6 {font-size: 6px;}
+.font7 {font-size: 7px;}
+.font8 {font-size: 8px;}
+.font9 {font-size: 9px;}
+.font10 {font-size: 10px;}
+.font11 {font-size: 11px;}
+.font12 {font-size: 12px;}
+.font13 {font-size: 13px;}
+.font14 {font-size: 14px;}
+
+/* Delays
+-------------------------------------------------- */
+.delayp1 {
+  animation-delay: .1s; -moz-animation-delay: .1s; -webkit-animation-delay: .1s; -o-animation-delay: .1s; transition-delay: .1s; -webkit-transition-delay: .1s; -moz-transition-delay: .1s; -o-transition-delay: .1s;
+}
+.delayp2 {
+  animation-delay: .2s; -moz-animation-delay: .2s; -webkit-animation-delay: .2s; -o-animation-delay: .2s; transition-delay: .2s; -webkit-transition-delay: .2s; -moz-transition-delay: .2s; -o-transition-delay: .2s;
+}
+.delayp3 {
+  animation-delay: .3s; -moz-animation-delay: .3s; -webkit-animation-delay: .3s; -o-animation-delay: .3s; transition-delay: .3s; -webkit-transition-delay: .3s; -moz-transition-delay: .3s; -o-transition-delay: .3s;
+}
+.delayp4 {
+  animation-delay: .4s; -moz-animation-delay: .4s; -webkit-animation-delay: .4s; -o-animation-delay: .4s; transition-delay: .4s; -webkit-transition-delay: .4s; -moz-transition-delay: .4s; -o-transition-delay: .4s;
+}
+.delayp5 {
+  animation-delay: .5s; -moz-animation-delay: .5s; -webkit-animation-delay: .5s; -o-animation-delay: .5s; transition-delay: .5s; -webkit-transition-delay: .5s; -moz-transition-delay: .5s; -o-transition-delay: .5s;
+}
+.delayp6 {
+  animation-delay: .6s; -moz-animation-delay: .6s; -webkit-animation-delay: .6s; -o-animation-delay: .6s; transition-delay: .6s; -webkit-transition-delay: .6s; -moz-transition-delay: .6s; -o-transition-delay: .6s;
+}
+.delayp7 {
+  animation-delay: .7s; -moz-animation-delay: .7s; -webkit-animation-delay: .7s; -o-animation-delay: .7s; transition-delay: .7s; -webkit-transition-delay: .7s; -moz-transition-delay: .7s; -o-transition-delay: .7s;
+}
+.delayp8 {
+  animation-delay: .8s; -moz-animation-delay: .8s; -webkit-animation-delay: .8s; -o-animation-delay: .8s; transition-delay: .8s; -webkit-transition-delay: .8s; -moz-transition-delay: .8s; -o-transition-delay: .8s;
+}
+.delayp9 {
+  animation-delay: .9s; -moz-animation-delay: .9s; -webkit-animation-delay: .9s; -o-animation-delay: .9s; transition-delay: .9s; -webkit-transition-delay: .9s; -moz-transition-delay: .9s; -o-transition-delay: .9s;
+}
+.delay1s {
+  animation-delay: 1s; -moz-animation-delay: 1s; -webkit-animation-delay: 1s; -o-animation-delay: 1s; transition-delay: 1s; -webkit-transition-delay: 1s; -moz-transition-delay: 1s; -o-transition-delay: 1s;
+}
+.delay2s {
+  animation-delay: 2s; -moz-animation-delay: 2s; -webkit-animation-delay: 2s; -o-animation-delay: 2s; transition-delay: 2s; -webkit-transition-delay: 2s; -moz-transition-delay: 2s; -o-transition-delay: 2s;
+}
+
+/* Ellipsis
+-------------------------------------------------- */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Set div in the middle
+-------------------------------------------------- */
+.outer-center {
+  float: right;
+  right: 50%;
+  position: relative;
+}
+.inner-center {
+  float: right;
+  right: -50%;
+  position: relative;
+}
+
+/* Image Replacement
+-------------------------------------------------- */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+}
+
+/* Hide
+-------------------------------------------------- */
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+
+/* ========================================================================================================================================
+   Common Components
+   ========================================================================================================================================= */
+
+/* ==========================================================================
+   Body / Containers
+   ========================================================================== */
+
+@media (max-width:768px) {
+  html {
+    overflow-x: hidden !important; 
+  }
+}
+body {
+  background: #fff url(../../assets/img/bg_cover-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../assets/bg_cover-1.jpg',sizingMethod='scale')";
+  line-height: 1.6;
+  font-family: 'SF UI Text', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden !important;
+}
+
+.container, .container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 768px) {
+  .container, .container-fluid {
+    padding-left: 10px; /* originally 15 */
+    padding-right: 10px; /* originally 15 */
+  }
+}
+
+/* ==========================================================================
+   Cover
+   ========================================================================== */
+
+/* General
+-------------------------------------------------- */
+.cover {
+  padding: 2rem 1rem;
+  background-color: #eceeef;
+  border-radius: 0.3rem;
+}
+@media (min-width: 544px) {
+  .cover {
+    padding: 4rem 2rem;
+  }
+}
+.cover-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  border-radius: 0;
+  background-color: #eceeef;
+}
+
+/* Cover Vertically Centerd
+-------------------------------------------------- */
+.cover-middle {
+  background: url('../../assets/img/bg/background_1.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff; 
+}
+
+.cover-middle .container {
+  height: 750px; /* Change this height as needed */
+  position: relative;
+  width: 100%;
+  }
+
+.cover-middle .cover-content {
+  /*
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: inline-block;
+  width: auto;
+  padding: 0 1.5rem;
+  margin: auto;
+  */
+   
+}
+@media (min-width: 544px) {
+  .cover-middle .cover-content {
+    padding: 0 10px; /* Same as container's padding */
+  }
+}
+
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+.section-main {
+  padding: 2.5rem 0;
+}
+@media (min-width: 768px) {
+  .section-main {
+    padding: 5rem 0;
+  }
+}
+
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+
+.heading {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.heading-title {
+  /* Insert content here */
+}
+.heading-subtitle {
+  /* Insert content here */
+}
+.heading *:last-child {
+  margin-bottom: 0;
+}
+
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+/* Btn General
+-------------------------------------------------- */
+.btn {
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: all .25s ease-in-out;
+  -moz-transition: all .25s ease-in-out;
+  -webkit-transition: all .25s ease-in-out;
+  -o-transition: all .25s ease-in-out;
+}
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: none;
+}
+
+/* Btn Primary
+-------------------------------------------------- */
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 25px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus,
+.btn-primary:active, .btn-primary.active,
+.open > .btn-primary.dropdown-toggle,
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+.open > .btn-primary.dropdown-toggle:hover,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle.focus {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+  }
+.btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary.disabled:hover, .btn-primary:disabled:hover {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+/* Btn Secondary
+-------------------------------------------------- */
+.btn-secondary {
+  color: #373a3c !important;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary.focus,
+.btn-secondary:active, .btn-secondary.active,
+.open > .btn-secondary.dropdown-toggle,
+.btn-secondary:active:hover, .btn-secondary:active:focus, .btn-secondary:active.focus, .btn-secondary.active:hover, .btn-secondary.active:focus, .btn-secondary.active.focus,
+.open > .btn-secondary.dropdown-toggle:hover,
+.open > .btn-secondary.dropdown-toggle:focus,
+.open > .btn-secondary.dropdown-toggle.focus {
+  color: #373a3c;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-secondary.disabled:focus, .btn-secondary.disabled.focus, .btn-secondary:disabled:focus, .btn-secondary:disabled.focus, .btn-secondary.disabled:hover, .btn-secondary:disabled:hover  {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+
+/* ==========================================================================
+   Table
+   ========================================================================== */
+
+.table thead th {
+  vertical-align: middle;
+}
+
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+
+.form-control {
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  color: #55595c;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+.form-control:focus {
+  color: #55595c;
+  background-color: #fff;
+  border-color: #66afe9;
+}
+.form-control::-webkit-input-placeholder,
+.form-control::-moz-placeholder,
+.form-control:-ms-input-placeholder,
+.form-control::placeholder {
+  color: #999;
+  opacity: 1;
+}
+
+.help-block {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+
+/* ==========================================================================
+   Alert
+   ========================================================================== */
+
+.alert {
+  /* Insert content here */
+}
+
+
+/* ==========================================================================
+   Modal
+   ========================================================================== */
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0, 0%);
+      -ms-transform: translate(0, 0%);
+       -o-transform: translate(0, 0%);
+          transform: translate(0, 0%);
+}
+.modal-content {
+  border: none;
+}
+
+/*body.modal-open { 
+  overflow: inherit; 
+  padding-right: inherit !important; 
+}*/
+
+
+/* ==========================================================================
+   Loader
+   ========================================================================== */
+
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 99999;
+  height: 100%;
+  overflow: hidden;
+}
+#loader {
+  background: url('../../assets/img/loader.gif') no-repeat;
+  width: 140px;
+  height: 140px;
+  margin: -70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 50%;
+  bottom: 50%;
+  background-size: 140px auto;
+}
+@-webkit-keyframes spin {
+  0% { 
+    -webkit-transform: rotate(0deg); 
+  }
+  100% { 
+    -webkit-transform: rotate(360deg); 
+  }
+}
+@keyframes spin {
+  0% { 
+    transform: rotate(0deg); 
+  }
+  100% { 
+    transform: rotate(360deg); 
+  }
+}
+
+
+/* ==========================================================================
+   Scroll Hint (Arrow Down)
+   ========================================================================== */
+
+.scroll-hint {
+  position: absolute;
+  display: block;
+  height: 75px;
+  width: 200px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+}
+.scroll-hint img {
+  position: absolute;
+  width: 50px;
+  margin-left: -25px;
+  left: 50%;
+  bottom: 0px;
+  display: inline-block;
+  -webkit-animation: arrow_move 1s linear;
+  -moz-animation: arrow_move 1s linear;
+  animation: arrow_move 1s linear;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes arrow_move {
+  0% {opacity: 1; bottom: 100px; }
+  50% {opacity: 0; bottom: 96px; }
+  90% {opacity: 0; bottom: 100px; }
+  100% {opacity: 1; bottom: 100px; }
+}
+@-moz-keyframes arrow_move {
+  0% {opacity: 1; bottom: 48px; }
+  50% {opacity: 0; bottom: 24px; }
+  90% {opacity: 0; bottom: 48px; }
+  100% {opacity: 1; bottom: 48px; }
+}
+@-o-keyframes arrow_move {
+  0% {opacity: 1; bottom: 48px; }
+  50% {opacity: 0; bottom: 24px; }
+  90% {opacity: 0; bottom: 48px; }
+  100% {opacity: 1; bottom: 48px; }
+}
+@keyframes arrow_move {
+  0% {opacity: 1; bottom: 48px; }
+  50% {opacity: 0; bottom: 24px; }
+  90% {opacity: 0; bottom: 48px; }
+  100% {opacity: 1; bottom: 48px; }
+}
+
+
+/* ========================================================================================================================================
+   Author's Custom Styles
+   ========================================================================================================================================= */
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+/* Navbar General
+-------------------------------------------------- */
+.navbar {
+  padding: 0;
+}
+.navbar-fixed-top + * {
+  margin-top: 62px;
+}
+
+/* Navbar Header / Brand / Toggle
+-------------------------------------------------- */
+.navbar-header {
+  border-bottom: 1px solid #eee;
+}
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+.navbar-toggler {
+  position: relative;
+  padding: .75rem .5rem;
+  margin-top: .5rem;
+  margin-right: -.5rem;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+@media (max-width: 767px) {
+  .navbar-toggleable-xs .container {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+}
+
+/* Navbar Toggler (BS3 Style)
+-------------------------------------------------- */
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #ccc;
+  border-radius: 1px;
+}
+.navbar-toggler .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+/* Navbar Nav
+-------------------------------------------------- */
+.navbar-nav .nav-link {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+@media (min-width: 768px) {
+  .navbar-nav .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .navbar-nav .nav-item + .nav-item {
+    margin-left: 1.5rem;
+  }
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+  /* Insert content here */
+  background-color: #3c342f;
+  color: #fff;
+  padding: 8% 15%;
+}
+
+
+/* ==========================================================================
+   Home
+   ========================================================================== */ 
+.a-destination {
+  height: 400px;
+  padding:0 15%;
+ }
+
+.eat-together {
+  background: url('../../assets/img/bg/background_eat-together.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  color: #fff;
+}
+
+.view-menus {
+  padding: 8% 15%;
+}
+
+.view-menus img {
+  width: 100%;
+  height: 100%;
+}
+
+.view-menus .col-md-4 {
+  margin-bottom: 3%;
+}
+
+.the-kitchen {
+  background: url('../../assets/img/bg/the_kitchen.jpg')no-repeat center;
+  background-size: cover;
+  height: 600px;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+.menu-examples {
+  padding: 8% 15%;
+}
+
+.menu-examples .col-md-4 {
+  margin-bottom: 3%;
+}
+
+/* ==========================================================================
+   Menu
+   ========================================================================== */ 
+.cover-menu{
+  background: url('../../assets/img/bg/cover_menu.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  height: 500px;
+}
+.menu {
+  padding: 8% 15%;
+}
+/* ==========================================================================
+   Reservations
+   ========================================================================== */ 
+.cover-reservations {
+  background: url('../../assets/img/bg/cover-reservations.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  }
+
+.cover-reservations .container {
+  height: 400px;
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+
+.reservations{
+  padding: 7% 15%;
+}
+
+.reservations > .flex-center > .container, .reservations > .row > .col-md-12, .reservations > .row > .col-md-6 {
+  margin-bottom: 5%;
+}
+/* ==========================================================================
+   Locations
+   ========================================================================== */ 
+.cover-locations {
+  background: url('../../assets/img/bg/cover_locations.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  color: #fff;
+}
+
+.locations {
+  padding: 7% 15%;
+}
+.locations > .row:nth-child(1) {
+  margin-bottom: 8%;
+}
+
+/* ==========================================================================
+   Read Me
+   ========================================================================== */ 
+
+.cover-read-me {
+  background:rgba(60,52,47,.9);
+  height: 500px;
+  color: #fff;
+}
+
+.read-me {
+  padding: 8% 15%;
+}
+/* General
+-------------------------------------------------- */
+
+
+/* Start here */
+
+
